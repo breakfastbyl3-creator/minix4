@@ -1,0 +1,101 @@
+{
+  "theme_and_archetype": {
+    "theme": "light",
+    "archetype": "1 (Organic & Earthy) with subtle luxury elements",
+    "reasoning": "A soul-food breakfast restaurant requires a warm, inviting, sensory experience. The light theme with warm cream, deep red, gold, and rich brown creates a cozy, homemade neighborhood feel while retaining an upscale brunch aesthetic."
+  },
+  "colors": {
+    "primary": "#8B0000",
+    "primary_hover": "#A52A2A",
+    "accent_gold": "#D4AF37",
+    "background_base": "#FDFBF7",
+    "surface_card": "#FFFFFF",
+    "surface_secondary": "#F3EBE1",
+    "text_main": "#1A1818",
+    "text_muted": "#5C4033",
+    "border_subtle": "rgba(92, 64, 51, 0.15)"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "style": "Elegant, tight tracking, warm soul-food vibe"
+    },
+    "body": {
+      "font_family": "Work Sans, sans-serif",
+      "style": "Clean, highly readable, relaxed leading"
+    },
+    "sizing_rules": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl tracking-tight",
+      "h3": "text-2xl sm:text-3xl",
+      "body": "text-base md:text-lg leading-relaxed"
+    }
+  },
+  "layout_and_spacing": {
+    "strategy": "Generous spacing. Overlapping elements for visual interest. Soft rounded corners (rounded-2xl) to match the comforting food vibe.",
+    "padding": "Use p-8, p-12, py-20, py-24 for main sections.",
+    "cards": "Flat background, 1px subtle border, soft ambient shadow (shadow-lg) on hover."
+  },
+  "components_strategy": {
+    "navigation": "Sticky nav with backdrop-blur-xl and bg-white/80. Must include Call Now CTA and Order Online.",
+    "hero": "Rotating full-bleed background images with a dark gradient overlay (bg-black/40 to bg-black/60) to ensure the elegant white/gold typography pops. Bottom-centered or floating CTA.",
+    "menu_grid": "Modern bento-inspired or masonry grid. Image on top (max-h-64 object-cover), text and price below. Hover effect: slight scale up of image.",
+    "reviews_wall": "Use `react-fast-marquee` for scrolling Google-style review cards. Cards should have a white background, gold stars, and customer avatar.",
+    "floating_order_button": "Fixed to bottom-right, pulsing gold or deep red, high contrast, linking to DoorDash.",
+    "catering_form": "Shadcn UI Input, Textarea, and Button wrapped in a clean, elegantly padded card."
+  },
+  "animations": {
+    "scroll_reveal": "Framer Motion staggered fade-up for menu items and features.",
+    "steam_effect": "CSS keyframes applied to subtle transparent PNGs or drop-shadows on key food items to simulate hot food.",
+    "hover_states": "Images scale up 105% on hover. Cards lift -translate-y-1."
+  },
+  "media": {
+    "hero_backgrounds": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/81746147-1ef7-4144-92b7-602ab32989ab/images/dd22cca444b63f5704ded297fa0b6f7f47eeb862746797568a3f0ff5651568bc.png",
+        "description": "Luxurious soul food breakfast feast"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1768249731607-2b3ecaf27071?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxzaHJpbXAlMjBhbmQlMjBncml0c3xlbnwwfHx8fDE3ODAwNzk1MTF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Shrimp and grits"
+      },
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/81746147-1ef7-4144-92b7-602ab32989ab/images/7661da4be824e1cf73c2e70ba6a709323d3355170825e2a901858a19196c224c.png",
+        "description": "French toast biscuits with syrup"
+      }
+    ],
+    "about_section": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/81746147-1ef7-4144-92b7-602ab32989ab/images/0be1cb14780341ef56ea3d1b429fa11dda852f07c257cf6b0d165fb59c952738.png",
+        "description": "Restaurant interior with warm lighting"
+      }
+    ],
+    "menu_items": [
+      {
+        "name": "Chicken & Waffles",
+        "url": "https://images.pexels.com/photos/31706934/pexels-photo-31706934.jpeg"
+      },
+      {
+        "name": "Fried Catfish",
+        "url": "https://images.pexels.com/photos/29516766/pexels-photo-29516766.jpeg"
+      },
+      {
+        "name": "Steaming Biscuits",
+        "url": "https://static.prod-images.emergentagent.com/jobs/81746147-1ef7-4144-92b7-602ab32989ab/images/e3f040a2e11103121526e2100b9b7b88c4d956a4e2542f878c0e893d64d1cad9.png"
+      }
+    ]
+  },
+  "testing_attributes": {
+    "rules": "All interactive elements must have data-testid. Examples: data-testid='order-online-btn', data-testid='catering-submit-btn'."
+  },
+  "instructions_to_main_agent": [
+    "Use pure HTML/Tailwind for the marketing sections, ensuring overlap and asymmetry where appropriate.",
+    "Use Playfair Display for all H1-H3 headings. Ensure tracking is tight.",
+    "Implement react-fast-marquee for the Google reviews wall.",
+    "Create a sticky header with glassmorphism (backdrop-blur-xl bg-white/80).",
+    "Use Shadcn components for the Catering inquiry form. Save form data to the DB.",
+    "Ensure all text has sufficient APCA contrast against the warm cream/bone backgrounds.",
+    "Include a floating Order Online button fixed to the bottom right of the viewport.",
+    "Integrate Lucide React icons for the amenities badges (Free Wi-Fi, Wheelchair Accessible, etc.)."
+  ]
+}
