@@ -9,7 +9,7 @@ export const FEATURED_MENU = [
     name: "Big Breakfast",
     desc: "2 pancakes, 2 sausage, 2 bacon, 2 cheese eggs, potatoes & grits.",
     price: "$28.00",
-    img: USER_FRENCH_TOAST_BISCUITS,
+    img: "https://scontent.fosu2-2.fna.fbcdn.net/v/t39.30808-6/548193151_24189854824047098_7118463460948886029_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hGGspHK8m58Q7kNvwFQ9lCD&_nc_oc=AdriJC3FFcAJwu-DIZKJs4uJbUzAtBXEkD3xwtZA92ahhQ-aWXLY-frmFLmcKRbt-eAFhapfg5pACenXYOObeFlx&_nc_zt=23&_nc_ht=scontent.fosu2-2.fna&_nc_gid=F46gIgsNxbX0O0OzYioleA&_nc_ss=7b289&oh=00_Af_fJcy3vptyMP1bo78dr1v0ugPpYMe1lzAYNrWBbJ7oEQ&oe=6A218C2B",
     tag: "Customer Favorite",
   },
   {
