@@ -2,9 +2,9 @@ import React from "react";
 import { Flame, ChefHat, Award, Coffee, Sparkles, Music } from "lucide-react";
 
 const SECTIONS = [
-  { i: Flame, t: "Soul Food Classics", d: "Catfish, chicken & waffles, shrimp & grits — the originals done right." },
-  { i: ChefHat, t: "Made Fresh Daily", d: "Biscuits pulled from the oven, gravy simmered, eggs cracked to order." },
-  { i: Award, t: "Customer Favorites", d: "The french toast biscuits & big breakfast keep neighbors coming back." },
+  { i: Flame, t: "Soul Food Classics", d: "Fish & grits, steak omelets, big breakfasts — the originals done right." },
+  { i: ChefHat, t: "Made Fresh Daily", d: "French toast biscuits, fluffy pancakes, eggs cracked & cooked to order." },
+  { i: Award, t: "Customer Favorites", d: "The Big Breakfast & Bacon Egg Croissant keep neighbors coming back." },
   { i: Music, t: "Neighborhood Hidden Gem", d: "Soft jazz, warm light, and the kind of welcome only Highland Square can give." },
   { i: Coffee, t: "Great Coffee, Always", d: "Locally brewed and bottomless — because soul food deserves a good cup." },
   { i: Sparkles, t: "Worth Waking Up For", d: "Saturday mornings, lazy Sundays, and the best Tuesday you'll ever have." },

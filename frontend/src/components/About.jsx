@@ -39,7 +39,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-[#1A1818]/85 leading-relaxed">
               <p>
-                Breakfast in Bed by LaCole began with a simple belief: real soul food is made slow, seasoned right, and served with the warmth of family. Every morning, LaCole and her team show up early to prep house-made biscuits, slow-simmered gravy, hand-breaded catfish, and the french toast biscuits folks travel across Ohio to taste.
+                Breakfast in Bed by LaCole began with a simple belief: real soul food is made slow, seasoned right, and served with the warmth of family. Every morning, LaCole and her team show up early to prep french toast biscuits, fluffy pancakes, fish & grits, and the big breakfast plates folks travel across Ohio to taste.
               </p>
               <p>
                 We're proud to be a Black-owned, family-run breakfast restaurant tucked into Highland Square. Cooked-to-order plates. Big portions. Soft jazz in the background. The kind of place where strangers leave as regulars.

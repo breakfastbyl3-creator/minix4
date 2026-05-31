@@ -47,7 +47,9 @@ export default function FeaturedMenu() {
               <div className="p-6">
                 <div className="flex items-start justify-between gap-4 mb-2">
                   <h3 className="font-display text-xl text-[#1A1818] leading-tight">{item.name}</h3>
-                  <span className="font-display text-lg text-[#8B0000] shrink-0">{item.price}</span>
+                  {item.price && (
+                    <span className="font-display text-lg text-[#8B0000] shrink-0">{item.price}</span>
+                  )}
                 </div>
                 <p className="text-sm text-[#5C4033] leading-relaxed">{item.desc}</p>
               </div>
